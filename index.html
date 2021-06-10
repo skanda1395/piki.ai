@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Piki | Home</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/logo_nobg.png"
+              alt="piki.ai Logo"
+              class="brand_logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item mx-md-2">
+                  <a class="nav-link active" href="/">Home</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                  <a class="nav-link" href="/products/">Products</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item mx-md-2">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro" class="container mb-5">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <h1 class="display-1 title text-center">
+              Idea <br />
+              to <br />
+              Outcome
+            </h1>
+          </div>
+          <div class="col-sm-12 col-md-6 shadow px-1">
+            <marquee direction="up" behavior="" class="ideas_scroll">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-primary">Idea #1</li>
+                <li class="list-group-item list-group-item-secondary">
+                  Idea #2
+                </li>
+                <li class="list-group-item list-group-item-success">Idea #3</li>
+                <li class="list-group-item list-group-item-danger">Idea #4</li>
+                <li class="list-group-item list-group-item-warning">Idea #5</li>
+                <li class="list-group-item list-group-item-info">Idea #6</li>
+                <li class="list-group-item list-group-item-dark">Idea #7</li>
+                <li class="list-group-item list-group-item-light">Idea #8</li>
+                <!-- <li class="list-group-item">Idea #1</li> -->
+              </ul>
+            </marquee>
+          </div>
+        </div>
+      </section>
+      <section id="overview" class="my-5 py-5">
+        <div class="row container mx-auto align-items-center">
+          <div class="col-sm-12 col-md-6" id="company_brief">
+            <h2 class="text-center">
+              <span class="align-text-bottom">Welcome to</span>
+              <img
+                src="assets/piki_logo.jpg"
+                alt="piki.ai logo"
+                class="title_embed"
+              />
+            </h2>
+            <p class="lead fs-4 text-justify">
+              Piki.ai is the collaboration web applications suit transforming
+              the way academic and personal projects are done
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <form>
+              <!-- Name -->
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <!-- Email Address -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <!-- Institution Name -->
+              <div class="mb-3">
+                <label for="institute_name" class="form-label"
+                  >Name of the Institution</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="institute_name"
+                  required
+                />
+              </div>
+              <!-- Institution Type -->
+              <div class="institution_type mb-3">
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="institution_type"
+                    id="academic"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="academic"
+                    >Academic</label
+                  >
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="institution_type"
+                    id="personal"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="personal"
+                    >Personal</label
+                  >
+                </div>
+              </div>
+              <div class="mb-3 text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="cta_btn text-center mt-3">
+          <a
+            class="btn btn-outline-primary btn-lg"
+            href="./products"
+            role="button"
+            >Explore Piki</a
+          >
+        </div>
+      </section>
+      <section
+        id="brief"
+        class="
+          my-5
+          py-5
+          border border-dark border-start-0 border-end-0 border-2
+        "
+      >
+        <div class="row container mx-auto align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <img src="assets/brief.svg" alt="" class="brief_img" />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <h2 class="fs-1 title">What is piki.ai?</h2>
+            <p class="lead">
+              An online platform to collaborate with various resources and
+              execute academic projects in a systematic way.
+            </p>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+              voluptates expedita esse ut dolores sunt officiis exercitationem.
+              Animi maiores sapiente nihil, esse voluptatem repellat aliquam
+              deleniti voluptates quis natus quos.
+            </p>
+            <div class="cta_btns">
+              <button type="button" class="btn btn-primary">
+                Request Demo
+              </button>
+              <button type="button" class="btn btn-secondary">About Us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="my-5"></section>
+    </main>
+
+    <footer class="bg-light">
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3 my-3">
+            <div class="logo mx-lg-3">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="assets/logo_nobg.png"
+                  alt="piki.ai Logo"
+                  class="brand_logo"
+                />
+              </a>
+            </div>
+            <p class="my-2 lead">
+              An Online Collaboration <br />
+              Platform for Project Managament
+            </p>
+            <!-- <p class="fw-light">#ManufactureWithPrintalytix</p> -->
+          </div>
+          <div class="col-sm-12 col-lg-3 links">
+            <h5 class="text-secondary">Quick Links</h5>
+            <ul>
+              <li>
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="/products/">Products</a>
+              </li>
+
+              <li>
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-lg-3">
+            <h5 class="text-secondary">Contact Us</h5>
+            <div class="contact_info">
+              <div class="phone_email_info mt-3">
+                <p class="my-1">
+                  <strong class="text-secondary"> Phone:</strong> +91-8008250810
+                </p>
+                <p class="my-1">
+                  <strong class="text-secondary"> Email:</strong>
+                  connect@piki-ai.com
+                </p>
+              </div>
+              <div class="social-media-links my-3">
+                <p>Follow us on social media</p>
+                <div class="links">
+                  <a
+                    class="btn facebook_icon"
+                    href="#"
+                    role="button"
+                    target="_blank"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a
+                    class="btn instagram_icon"
+                    href="#"
+                    role="button"
+                    target="_blank"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a
+                    class="btn linkedin_icon"
+                    href="#"
+                    role="button"
+                    target="_blank"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-3">
+            <h5 class="text-secondary">Address</h5>
+            <div class="address mt-3">
+              <p>
+                Plot #2B, Site #36, 1st Floor, Shop #03, <br />
+                2nd Phase, KIADB Main Road, Opp. BWSSB, <br />
+                Peenya 1st Stage, Peenya Industrial Area, <br />
+                Adjacent To Coir Board, <br />
+                Bangalore – 560 058
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
