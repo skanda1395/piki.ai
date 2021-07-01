@@ -14,3 +14,7 @@ main {
   /* max-width: 500px; */
   height: auto;
 }
+
+#products img {
+  max-height: 450px;
+}
