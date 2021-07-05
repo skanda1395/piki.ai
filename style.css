@@ -1,13 +1,31 @@
 :root {
- 
-}
-
-body {
+  --header-bg: hsla(7, 93%, 42%, 1);
+  --logo-colour: hsla(37, 100%, 67%, 1);
 }
 
 main {
   padding-top: 1rem;
   /* width: 99.2%; */
+}
+
+header .navbar {
+  background: var(--header-bg) !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+header .navbar .nav-link {
+  color: white !important;
+  text-transform: uppercase; 
+}
+header .navbar .nav-item {
+  margin: 0 1rem !important;
+}
+header .logo {
+  font-size: 1.5rem; 
+  color: var(--header-bg); 
+  background: var(--logo-colour);
+  padding: 0.25rem 0.5rem;
+  border-radius: 50%;
 }
 
 #intro .intro_img, #products_intro .intro_img {
