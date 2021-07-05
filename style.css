@@ -1,7 +1,14 @@
+/* Google Fonts -- Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 :root {
   --header-bg: hsla(7, 93%, 42%, 1);
   --logo-colour: hsla(37, 100%, 67%, 1);
   --card-bg: hsla(174, 69%, 48%, 1);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
@@ -17,6 +24,7 @@ header .navbar {
 header .navbar .nav-link {
   color: white !important;
   text-transform: uppercase; 
+  font-weight: bold;
 }
 header .navbar .nav-item {
   margin: 0 1rem !important;
@@ -32,6 +40,11 @@ header .logo {
 #intro .intro_img, #products_intro .intro_img {
   /* max-width: 500px; */
   height: auto;
+  border-radius: 10px;
+}
+#intro .row {
+  background: var(--card-bg);
+  border-radius: 10px;
 }
 
 #products img {
