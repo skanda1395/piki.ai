@@ -36,3 +36,14 @@ header .logo {
 #products img {
   max-height: 450px;
 }
+
+footer {
+  background: hsla(34, 64%, 98%, 1);
+}
+footer .list-group {
+  list-style-type: none;
+}
+footer .list-group .nav-link {
+  color: black;
+  padding: 0.25rem 0;
+}
