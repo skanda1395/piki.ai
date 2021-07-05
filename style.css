@@ -1,6 +1,7 @@
 :root {
   --header-bg: hsla(7, 93%, 42%, 1);
   --logo-colour: hsla(37, 100%, 67%, 1);
+  --card-bg: hsla(174, 69%, 48%, 1);
 }
 
 main {
@@ -36,6 +37,12 @@ header .logo {
 #products img {
   max-height: 450px;
 }
+#products .card .card-body {
+  background: var(--card-bg);
+}
+#products .card .card-body .prod_know_more .btn {
+  background: var(--header-bg);
+}
 
 footer {
   background: hsla(34, 64%, 98%, 1);
@@ -46,4 +53,14 @@ footer .list-group {
 footer .list-group .nav-link {
   color: black;
   padding: 0.25rem 0;
+}
+
+.illust_img {
+  max-height: 400px;
+}
+
+.title_underline {
+  border-bottom: 2px solid #c4c4c4;
+  display: inline-block;
+  line-height: 1.25;
 }
