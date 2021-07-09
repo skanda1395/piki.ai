@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   /* width: 99.2%; */
 }
 
@@ -52,8 +52,13 @@ header .logo {
 .ideas_scroll {
   max-height: 500px;
 }
-.ideas_scroll .list-group-item {
+.ideas_scroll .list-group-item{
   margin: 0.25rem 0;
+}
+
+.modal-body .list-group-item {
+  margin: 0.25rem 0;
+  border-radius: 5px;
 }
 
 #products img {
