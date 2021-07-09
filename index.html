@@ -1,70 +1,65 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-     <!-- Bootstrap Icons -->
-     <link
-     rel="stylesheet"
-     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-   />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 
-    <title>Piki | Home</title>
-  </head>
-  <body>
-    <header>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            <i class="bi-twitter mx-2 logo"></i>
-            <!-- <img src="assets/logo.png" alt="Piki Logo" class="logo" /> -->
-            <span class="text-white fs-4">PIKI.AI</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="products.html">Products</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about-us.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+  <title>Piki | Home</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <i class="bi-twitter mx-2 logo"></i>
+          <!-- <img src="assets/logo.png" alt="Piki Logo" class="logo" /> -->
+          <span class="text-white fs-4">PIKI.AI</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      <!-- Intro -->
-      <!-- <section id="intro" class="container pt-5">
+  <main>
+    <!-- Intro -->
+    <!-- <section id="intro" class="container pt-5">
         <div class="row shadow align-items-center my-5">
           <div class="col-sm-12 col-md-6 order-md-1 px-lg-0">
             <img src="assets/intro_1.png" alt="Intro #1" class="img-fluid intro_img">
@@ -95,97 +90,257 @@
         </div>
       </section> -->
 
-      <!-- Products Intro -->
-      <section id="products_intro" class="container my-5 py-5">
-        <div class="row align-items-center my-5">
-          <div class="col-sm-12 col-md-7">
-            <img src="assets/idea.png" alt="Woman thinking about ideas " class="img-fluid intro_img">
-          </div>
-          <div class="col-sm-12 col-md-5">
-            <div class="intro_content">
-              <p class="display-3">Ideate</p>
+    <!-- Products Intro -->
+    <section id="products_intro" class="container my-5 pt-5">
+      <div class="row align-items-center my-5">
+        <div class="col-sm-12 col-md-7">
+          <img src="assets/idea.png" alt="Woman thinking about ideas " class="img-fluid intro_img">
+        </div>
+        <div class="col-sm-12 col-md-5">
+          <div class="intro_content">
+            <p class="display-1" id="typed"></p>
+            <!-- <p class="display-3">Ideate</p>
               <p class="display-3">Collaborate</p>
-              <p class="display-3">Execute</p>
-            </div>
+              <p class="display-3">Execute</p> -->
           </div>
         </div>
-        <div class="row align-items-center my-5 py-5">
-            <div class="col-sm-12 col-md-6">
-              <img src="assets/collaborate.png" alt="People working together " class="img-fluid intro_img">
-            </div>
-            <div class="col-sm-12 col-md-6 shadow px-1">
-              <marquee direction="up" behavior="" class="ideas_scroll">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item list-group-item-primary">Idea #1</li>
-                  <li class="list-group-item list-group-item-secondary">
-                    Idea #2
-                  </li>
-                  <li class="list-group-item list-group-item-success">Idea #3</li>
-                  <li class="list-group-item list-group-item-danger">Idea #4</li>
-                  <li class="list-group-item list-group-item-warning">Idea #5</li>
-                  <li class="list-group-item list-group-item-info">Idea #6</li>
-                  <li class="list-group-item list-group-item-dark">Idea #7</li>
-                  <li class="list-group-item list-group-item-light">Idea #8</li>
-                  <!-- <li class="list-group-item">Idea #1</li> -->
-                </ul>
-              </marquee>
-            </div>
-          </div>
-      </section>
-
-    </main>
-
-    <footer class="container-fluid py-4">
-      <div class="row">
-        <div class="col-sm-12 col-md-4 quick_links mb-3 mb-md-0">
-          <h5 class="text-secondary text-center text-dark text-uppercase mb-3">Quick Links</h5>
-            <ul class="list-group text-center">
-              <li>
-                <a class="nav-link" href="/">Home</a>
+      </div>
+      <div class="row align-items-center my-5 py-5">
+        <div class="col-sm-12 col-md-6">
+          <img src="assets/collaborate.png" alt="People working together " class="img-fluid intro_img">
+        </div>
+        <div class="col-sm-12 col-md-6 shadow px-1">
+          <marquee direction="up" behavior="" class="ideas_scroll">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item list-group-item-primary">
+                Proximity Based Biomedical Health Card Design
               </li>
-              <li>
-                <a class="nav-link" href="products.html">Products</a>
+              <li class="list-group-item list-group-item-secondary">
+                sensor guided robotics
               </li>
-              <li>
-                <a class="nav-link" href="about-us.html">About Us</a>
+              <li class="list-group-item list-group-item-success">
+                Solar operated sprayer for farming
               </li>
-              <li>
-                <a class="nav-link" href="contact.html">Contact</a>
+              <li class="list-group-item list-group-item-danger">
+                Contactless Liquid Level Controller
+              </li>
+              <li class="list-group-item list-group-item-warning">
+                Non-Contact Digital Tachometer design
+              </li>
+              <li class="list-group-item list-group-item-info">
+                Smart Mirror Design using IOT
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                Room temperature control without Thermostat
+              </li>
+              <li class="list-group-item list-group-item-light">
+                Process pipe routing using Machine learning
+              </li>
+              <li class="list-group-item list-group-item-primary">
+                Android batter saver system design
+              </li>
+              <li class="list-group-item list-group-item-secondary">
+                Compressed Air Vehicle Design
+              </li>
+              <li class="list-group-item list-group-item-success">
+                GPS based vehicle parameter monitoring with intelligent data analysis
+              </li>
+              <li class="list-group-item list-group-item-danger">
+                Sun Tracking Solar panel design
+              </li>
+              <li class="list-group-item list-group-item-warning">
+                Homemade 3D Printer
+              </li>
+              <li class="list-group-item list-group-item-info">
+                Self-inflating bag-based mechanical ventilator Design
+              </li>
+              <li class="list-group-item list-group-item-dark">
+                Bedside Patient monitoring system with remote alert
+              </li>
+              <li class="list-group-item list-group-item-primary">
+                RFID Based Device Control and Authentication using PIC Microcontroller
+              </li>
+              <li class="list-group-item list-group-item-secondary">
+                Production of Paper Pulp from Groundnut Shell
+              </li>
+              <li class="list-group-item list-group-item-success">
+                Production of Cardboard from Rice Husk
+              </li>
+              <li class="list-group-item list-group-item-danger">
+                Frictionless Wind Turbine design using Magnetic Levitation
+              </li>
+              <li class="list-group-item list-group-item-warning">
+                Production of Alcohol from Potatoes and Agriculture Waste
               </li>
             </ul>
-        </div>
-        <div class="col-sm-12 col-md-4 address mb-3 mb-md-0">
-          <h5 class="text-secondary text-center text-dark text-uppercase mb-3">Address</h5>
-          <p class="text-center">
-            Plot #2B, Site #36, 1st Floor, Shop #03, <br>
-            2nd Phase, KIADB Main Road, Opp. BWSSB, <br>
-            Peenya 1st Stage, Peenya Industrial Area, <br>
-            Adjacent To Coir Board,
-            Bangalore – 560058
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-4 contact_info mb-3 mb-md-0">
-          <h5 class="text-secondary text-center text-dark text-uppercase mb-3">Contact Us</h5>
-          <p class="text-center">
-            +91-8008250810 <br />
-            connect@piki-ai.com <br />
-            FAQs
-          </p>
+          </marquee>
         </div>
       </div>
-      <!-- Social Media Icons -->
-      <div class="d-flex justify-content-center">
-        <i class="bi-twitter mx-3" style="font-size: 2rem; color: var(--header-bg);"></i>
-        <i class="bi-instagram mx-3" style="font-size: 2rem; color: var(--header-bg);"></i>
-        <i class="bi-linkedin mx-3" style="font-size: 2rem; color: var(--header-bg);"></i>
-        <i class="bi-facebook mx-3" style="font-size: 2rem; color: var(--header-bg);"></i>
+    </section>
+
+    <!-- Company Brief -->
+    <section id="brief" class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6">
+          <h3 class="display-4">What is Piki about?</h3>
+          <p class="lead">
+            Structured, enhanced and motivated engagement of Learners and Guides to power their Academic Project Execution using a collaborative web platform 
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <img src="assets/about_us.pn" alt="img-fluid">
+        </div>
       </div>
-    </footer>
+    </section>
+
+    <!-- Aim -->
+    <section id="vision" class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-sm-12 col-md-6">
+          <h3 class="display-4">What we aim at?</h3>
+          <p class="lead">
+            Academia increasingly promoting project-based learning and Innovation.
+          </p>
+          <p class="lead">
+            The foundations of Project-Based Learning advocate the importance of hands-on approaches. These are guided at providing students a paradigm to learn by exposure. However, like what is so traditional of the human race, this approach is frequently misused by us.
+          </p>
+          <h4 class="fs-3">Working on a project allows students to:</h4>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Understand a real world problem </li>
+            <li class="list-group-item">Generate ideas and project them through implementation</li>
+            <li class="list-group-item">Apply a theoretical concept in practice</li>
+            <li class="list-group-item">Apply a theoretical concept in practice</li>
+          </ul>
+          <p class="">
+            However, projects in today’s classrooms usually do not work along these lines and miss out on its objective- Project Based Learning and Innovation.
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <img src="assets/about_us.pn" alt="img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <!-- Method -->
+    <section id="method" class="container my-5">
+      <div class="">
+        <div class="">
+          <h3 class="display-4 text-center">Our Method</h3>
+          <h5 class="text-center my-4 ">
+            Collaboration, Flexible Project Management Tools and Feedback Loops
+          </h5>
+          <p class="lead">
+            Piki provides platform for Ideation, projection ,implementation and feedbacks.
+          </p>
+          <p class="lead">
+            Its well designed Project Management tool simplifies execution of projects and their evaluation/feedback processes.
+          </p>
+          <p class="lead">
+            Piki also supports project based learning (PBL) by recommending ‘Fit to Purpose’ mini courses catalysing project progress.
+          </p>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact_form" class="container">
+      <div class="row">
+        <h4 class="text-center display-6 my-4">
+          Try out our platform. Write to us
+        </h4>
+        <div class="col-sm-12 col-md-6 offset-md-3">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="institution" class="form-label">Institution</label>
+              <input type="text" class="form-control" id="institution" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="location" class="form-label">Location</label>
+              <input type="text" class="form-control" id="location" aria-describedby="emailHelp">
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container-fluid py-4">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 quick_links mb-3 mb-md-0">
+        <h5 class="text-secondary text-center text-dark text-uppercase mb-3">Quick Links</h5>
+        <ul class="list-group text-center">
+          <li>
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li>
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-md-4 address mb-3 mb-md-0">
+        <h5 class="text-secondary text-center text-dark text-uppercase mb-3">Address</h5>
+        <p class="text-center">
+          Plot #2B, Site #36, 1st Floor, Shop #03, <br>
+          2nd Phase, KIADB Main Road, Opp. BWSSB, <br>
+          Peenya 1st Stage, Peenya Industrial Area, <br>
+          Adjacent To Coir Board,
+          Bangalore – 560058
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-4 contact_info mb-3 mb-md-0">
+        <h5 class="text-secondary text-center text-dark text-uppercase mb-3">Contact Us</h5>
+        <p class="text-center">
+          +91-8008250810 <br />
+          connect@piki-ai.com <br />
+          FAQs
+        </p>
+      </div>
+    </div>
+    <!-- Social Media Icons -->
+    <div class="d-flex justify-content-center">
+      <i class="bi-twitter mx-3" style="font-size: 2rem; color: var(--header-bg);"></i>
+      <i class="bi-instagram mx-3" style="font-size: 2rem; color: var(--header-bg);"></i>
+      <i class="bi-linkedin mx-3" style="font-size: 2rem; color: var(--header-bg);"></i>
+      <i class="bi-facebook mx-3" style="font-size: 2rem; color: var(--header-bg);"></i>
+    </div>
+  </footer>
 
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ['Ideate', 'Collaborate', 'Execute'],
+      typeSpeed: 70,
+      fadeOut: true,
+      fadeOutDelay: 400,
+      // backDelay: 2000,
+      loop: true,
+      showCursor: false,
+    });
+  </script>
+</body>
 
-  </body>
 </html>

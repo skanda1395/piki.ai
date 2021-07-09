@@ -5,6 +5,8 @@
   --header-bg: hsla(7, 93%, 42%, 1);
   --logo-colour: hsla(37, 100%, 67%, 1);
   --card-bg: hsla(174, 69%, 48%, 1);
+  /* --primary:#084298;
+  --secondary:   */
 }
 
 body {
@@ -45,6 +47,13 @@ header .logo {
 #intro .row {
   background: var(--card-bg);
   border-radius: 10px;
+}
+
+.ideas_scroll {
+  max-height: 500px;
+}
+.ideas_scroll .list-group-item {
+  margin: 0.25rem 0;
 }
 
 #products img {
