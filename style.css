@@ -71,6 +71,16 @@ header .logo {
   background: var(--header-bg);
 }
 
+.idea_icons {
+  max-width: 25px;
+  height: auto;
+}
+
+.img_contain {
+  max-width: 500px;
+  height: auto;
+}
+
 footer {
   background: hsla(34, 64%, 98%, 1);
 }
