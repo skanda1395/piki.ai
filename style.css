@@ -102,3 +102,13 @@ footer .list-group .nav-link {
   display: inline-block;
   line-height: 1.25;
 }
+
+.gradient_text {
+  background: -webkit-linear-gradient(var(--header-bg), var(--logo-colour));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.quote {
+  quotes: '\0022' '\0022';
+}
