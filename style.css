@@ -77,6 +77,7 @@ header .logo {
 }
 
 .img_contain {
+  width: 100%;
   max-width: 500px;
   height: auto;
 }
