@@ -76,6 +76,11 @@ header .logo {
   height: auto;
 }
 
+.method_point_icon {
+  max-width: 50px;
+  height: auto;
+}
+
 .img_contain {
   width: 100%;
   max-width: 500px;
@@ -111,4 +116,9 @@ footer .list-group .nav-link {
 
 .quote {
   quotes: '\0022' '\0022';
+}
+
+.quote_box {
+  max-width: 700px;
+  margin: 0 auto;
 }

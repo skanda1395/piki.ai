@@ -65,16 +65,16 @@
     <main>
 
       <section id="products_intro" class="container my-5 pt-2">
-        <div class="row align-items-center my-5">
-          <div class="col-sm-12 col-md-7">
-            <img src="assets/idea.png" alt="Woman thinking about ideas " class="img-fluid intro_img">
+        <div class="row align-items-center my-5 py-lg-5">
+          <div class="col-sm-12 col-md-8">
+            <img src="assets/idea.png" alt="Woman thinking about ideas " class="img-fluid">
           </div>
-          <div class="col-sm-12 col-md-5">
+          <div class="col-sm-12 col-md-4">
             <div class="intro_content">
-              <!-- <p class="display-1" id="typed"></p> -->
-              <p class="display-3">Ideate</p>
-                <p class="display-3">Collaborate</p>
-                <p class="display-3">Execute</p>
+              <p class="display-1 mt-4" id="typed"></p>
+              <!-- <p class="display-3">Ideate</p>
+              <p class="display-3">Collaborate</p>
+              <p class="display-3">Execute</p> -->
             </div>
           </div>
         </div>
@@ -320,8 +320,20 @@
       </div>
     </footer>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('#typed', {
+        strings: ['Ideate', 'Collaborate', 'Execute'],
+        typeSpeed: 70,
+        fadeOut: true,
+        fadeOutDelay: 400,
+        // backDelay: 2000,
+        loop: true,
+        showCursor: false,
+      });
+    </script>
   </body>
 </html>
